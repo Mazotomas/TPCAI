@@ -29,7 +29,19 @@ namespace Datos
             this._nombreUsuario = datos[1];
             this._contrasena = datos[2];
             this._fechaAlta = DateTime.ParseExact(datos[3], "dd/MM/yyyy", CultureInfo.InvariantCulture);
-            this._fechaUltimoLogin = DateTime.ParseExact(datos[4], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+            //this._fechaUltimoLogin = DateTime.ParseExact(datos[4], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+            string textoFecha = datos[4].Trim();
+
+            if (string.IsNullOrEmpty(textoFecha))
+            {
+                this._fechaUltimoLogin = null;          // nunca ingresó o lo desbloquearon
+            }
+            else
+            {
+                this._fechaUltimoLogin = DateTime.ParseExact(datos[4], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+            }
+
         }
 
         public abstract void MostrarOpciones(); // método común para todos

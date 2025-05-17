@@ -20,5 +20,28 @@ namespace TemplateTPCorto
             InitializeComponent();
             this.usuario = usuario;
         }
+
+        private void BtnCambioClave_Click(object sender, EventArgs e)
+        {
+            FormCambiarContraseña formCambio = new FormCambiarContraseña(usuario);
+            formCambio.Show();
+
+            // ocultar o cerrar el login
+            this.Hide();
+        }
+
+        private void BtnModificar_Click(object sender, EventArgs e)
+        {
+            FormModificarPersona formModificar = new FormModificarPersona();
+            formModificar.Show();
+
+            // ocultar o cerrar el login
+            this.Hide();
+        }
+
+        private void BtnDesbloquear_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
