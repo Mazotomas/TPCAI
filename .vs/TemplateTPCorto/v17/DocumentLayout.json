@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\negocio\\cambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\cambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\datos\\login\\credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\login\\credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\persistencia\\contrase\u00F1apersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\contrase\u00F1apersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\negocio\\cambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\cambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Credencial.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Datos\\Login\\Credencial.cs",
+              "RelativeDocumentMoniker": "Datos\\Login\\Credencial.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Datos\\Login\\Credencial.cs",
+              "RelativeToolTip": "Datos\\Login\\Credencial.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:33:01.681Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -35,27 +61,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\Program.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\Program.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\Program.cs",
+              "RelativeToolTip": "TemplateTPCorto\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:42:54.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormLogin.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormLogin.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormLogin.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAwDcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:59:19.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Contrase\u00F1aPersistencia.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Persistencia\\Contrase\u00F1aPersistencia.cs",
               "RelativeDocumentMoniker": "Persistencia\\Contrase\u00F1aPersistencia.cs",
               "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Persistencia\\Contrase\u00F1aPersistencia.cs",
               "RelativeToolTip": "Persistencia\\Contrase\u00F1aPersistencia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAFAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T02:43:53.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CambioContrase\u00F1a.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\CambioContrase\u00F1a.cs",
               "RelativeDocumentMoniker": "Negocio\\CambioContrase\u00F1a.cs",
               "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\CambioContrase\u00F1a.cs",
               "RelativeToolTip": "Negocio\\CambioContrase\u00F1a.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABMAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T02:42:42.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T02:42:42.752Z"
             }
           ]
         }

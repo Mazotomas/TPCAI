@@ -31,7 +31,8 @@ namespace Persistencia
                         {
 
                             campos[2] = nuevoContraseña;
-                            return validacion = true;
+                            campos[4] = DateTime.Now.ToString("dd/MM/yyyy");
+                            validacion = true;
                         }
 
                         nuevasLineas.Add(string.Join(";", campos));

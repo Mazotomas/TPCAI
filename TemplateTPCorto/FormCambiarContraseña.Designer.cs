@@ -28,30 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCambioContraseña = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtCambioContraseña
             // 
-            this.textBox1.Location = new System.Drawing.Point(95, 126);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 22);
-            this.textBox1.TabIndex = 0;
+            this.txtCambioContraseña.Location = new System.Drawing.Point(95, 126);
+            this.txtCambioContraseña.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCambioContraseña.Name = "txtCambioContraseña";
+            this.txtCambioContraseña.Size = new System.Drawing.Size(177, 22);
+            this.txtCambioContraseña.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(120, 176);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 36);
             this.button1.TabIndex = 1;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // label1
             // 
@@ -96,8 +97,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.txtCambioContraseña);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormCambiarContraseña";
             this.Text = "Cambiar Contraseña";
             this.ResumeLayout(false);
@@ -107,7 +108,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCambioContraseña;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

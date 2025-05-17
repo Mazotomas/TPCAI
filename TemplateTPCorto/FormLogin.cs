@@ -63,6 +63,25 @@ namespace TemplateTPCorto
                 MessageBox.Show("Administrador");
             }
 
+            if (resultado.CambiarClave)
+            {
+                MessageBox.Show("Debe cambiar su contraseña porque hace más de 30 días del último login.");
+
+                // Abrir formulario de cambio de clave, pasando la credencial
+                FormCambiarContraseña formCambio = new FormCambiarContraseña(resultado.Usuario);
+                formCambio.Show();
+
+                // Opcional: ocultar o cerrar el login
+                this.Hide();
+            }
+            else
+            {
+                // Continuar con la redirección normal
+                //RedirigirSegunRol(resultado.Usuario);
+            }
+
+
+
             // Redirigir según tipo de usuario
 
         }
