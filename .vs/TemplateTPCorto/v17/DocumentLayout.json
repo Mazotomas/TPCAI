@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\cambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\persistencia\\contrase\u00F1apersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\persistencia\\contrase\u00F1apersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\contrase\u00F1apersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Persistencia\\Contrase\u00F1aPersistencia.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T02:43:53.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T02:43:53.873Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "Negocio\\CambioContrase\u00F1a.cs",
               "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\CambioContrase\u00F1a.cs",
               "RelativeToolTip": "Negocio\\CambioContrase\u00F1a.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABMAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T02:42:42.752Z",
               "EditorCaption": ""
