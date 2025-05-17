@@ -10,3 +10,9 @@ C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\Datos\obj\De
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\Datos\obj\Debug\Datos.dll
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\Datos\obj\Debug\Datos.pdb
+D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Datos\bin\Debug\Datos.dll
+D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Datos\bin\Debug\Datos.pdb
+D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Datos\obj\Debug\Datos.dll
+D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Datos\obj\Debug\Datos.pdb

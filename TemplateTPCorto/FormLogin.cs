@@ -25,7 +25,7 @@ namespace TemplateTPCorto
             String password = txtPassword.Text;
 
             LoginNegocio loginNegocio = new LoginNegocio();
-            //           Credencial credencial = loginNegocio.login(usuario, password);
+
             ResultadoLogin resultado = loginNegocio.Login(usuario, password);
 
             if (resultado.UsuarioNoEncontrado)
@@ -48,13 +48,13 @@ namespace TemplateTPCorto
 
             if (resultado.CambiarClave)
             {
-                MessageBox.Show("Debe cambiar su contraseña porque hace más de 30 días del último login.");
+                MessageBox.Show("Debe cambiar su contraseña porque es su primer ingreso o pasaron más de 30 días del último login.");
 
                 // Abrir formulario de cambio de clave, pasando la credencial
                 FormCambiarContraseña formCambio = new FormCambiarContraseña(resultado.Usuario);
                 formCambio.Show();
 
-                // Opcional: ocultar o cerrar el login
+                // ocultar el login
                 this.Hide();
             }
             else
@@ -77,13 +77,9 @@ namespace TemplateTPCorto
                     formAdministrador.Show();
                 }
 
-                // Opcional: ocultar o cerrar el login para no volver atrás
+                // ocultar el login para no volver atrás
                 this.Hide();
             }
-
-
-
-            // Redirigir según tipo de usuario
 
         }
 

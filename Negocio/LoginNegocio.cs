@@ -74,65 +74,7 @@ namespace Negocio
 
             return resultado;
 
-            //Credencial credencial = usuarioPersistencia.login(usuario);
-
-            //if (EstaBloqueado(credencial.Legajo))
-            //{
-            //    return null; //en caso de esta bloqueado que podría devolver? un 0? y sino el numero de rol?
-            //}
-
-
-            //if (credencial.Contrasena.Equals(password))
-            //{
-            //    return credencial; //en caso de que la contraseña este ok...deberia devolver en realidad el rol?
-            //    //borrar las lineas de login_intentos.csv para este legajo
-            //}
-            //else
-            //{
-            //    Boolean puedeSeguir = CantidadIntentos(credencial.Legajo);
-            //    if (puedeSeguir)
-            //    {
-            //        //registrar el intento en login_intentos.csv
-            //        return null; //algo que dispare un msj de error pero deje continuar
-            //    }
-            //    else
-            //    {
-            //        //escribir legajo en usuario_bloqueado
-            //        // error de bloqueo
-            //    }
-
-            //}
-
-            //return null;
         }
-
-
-        public bool EstaBloqueado(string legajo)
-        {
-            UsuarioPersistencia usuarioPersistencia = new UsuarioPersistencia();
-
-            Boolean Bloqueo = usuarioPersistencia.EstaBloqueado(legajo);
-
-            return Bloqueo; //true es que lo esta, false que no
-
-        }
-
-        public bool CantidadIntentos(string legajo)
-        {
-            UsuarioPersistencia usuarioPersistencia = new UsuarioPersistencia();
-
-            int intentos = usuarioPersistencia.CantidadIntentos(legajo);
-
-            if (intentos >= 2)
-            {
-                return false; //falso si supera los 2, deberá ser bloqueado
-            }
-
-            return true; //verdadero si puede seguir probando
-        }
-
-
-
 
     }
 }

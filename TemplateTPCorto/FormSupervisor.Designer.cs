@@ -28,33 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnModificar = new System.Windows.Forms.Button();
+            this.BtnDesbloquear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnCambioClave = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnModificar
             // 
-            this.button1.Location = new System.Drawing.Point(41, 140);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(203, 46);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Modificar Persona";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnModificar.Location = new System.Drawing.Point(41, 140);
+            this.BtnModificar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnModificar.Name = "BtnModificar";
+            this.BtnModificar.Size = new System.Drawing.Size(203, 46);
+            this.BtnModificar.TabIndex = 0;
+            this.BtnModificar.Text = "Modificar Persona";
+            this.BtnModificar.UseVisualStyleBackColor = true;
+            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
-            // button2
+            // BtnDesbloquear
             // 
-            this.button2.Location = new System.Drawing.Point(41, 214);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(203, 46);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Desbloquear Credencial";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnDesbloquear.Location = new System.Drawing.Point(41, 214);
+            this.BtnDesbloquear.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnDesbloquear.Name = "BtnDesbloquear";
+            this.BtnDesbloquear.Size = new System.Drawing.Size(203, 46);
+            this.BtnDesbloquear.TabIndex = 1;
+            this.BtnDesbloquear.Text = "Desbloquear Credencial";
+            this.BtnDesbloquear.UseVisualStyleBackColor = true;
+            this.BtnDesbloquear.Click += new System.EventHandler(this.BtnDesbloquear_Click);
             // 
             // label1
             // 
@@ -78,15 +80,16 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Elija una opción:";
             // 
-            // button3
+            // BtnCambioClave
             // 
-            this.button3.Location = new System.Drawing.Point(47, 370);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(179, 28);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Cambiar contraseña";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtnCambioClave.Location = new System.Drawing.Point(47, 370);
+            this.BtnCambioClave.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCambioClave.Name = "BtnCambioClave";
+            this.BtnCambioClave.Size = new System.Drawing.Size(179, 28);
+            this.BtnCambioClave.TabIndex = 4;
+            this.BtnCambioClave.Text = "Cambiar contraseña";
+            this.BtnCambioClave.UseVisualStyleBackColor = true;
+            this.BtnCambioClave.Click += new System.EventHandler(this.BtnCambioClave_Click);
             // 
             // label3
             // 
@@ -104,12 +107,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(291, 425);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BtnCambioClave);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.BtnDesbloquear);
+            this.Controls.Add(this.BtnModificar);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormSupervisor";
             this.Text = "Supervisor";
             this.ResumeLayout(false);
@@ -119,11 +122,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnModificar;
+        private System.Windows.Forms.Button BtnDesbloquear;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnCambioClave;
         private System.Windows.Forms.Label label3;
     }
 }
