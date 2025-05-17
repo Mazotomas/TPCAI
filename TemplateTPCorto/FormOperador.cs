@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Datos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace TemplateTPCorto
 {
     public partial class FormOperador : Form
     {
-        public FormOperador()
+        private Credencial usuario;
+
+        public FormOperador(Credencial usuario)
         {
             InitializeComponent();
+            this.usuario = usuario;
         }
 
         private void label1_Click(object sender, EventArgs e)

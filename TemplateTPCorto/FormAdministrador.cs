@@ -11,14 +11,15 @@ using System.Windows.Forms;
 
 namespace TemplateTPCorto
 {
-    public partial class FormSupervisor : Form
+    public partial class FormAdministrador : Form
     {
         private Credencial usuario;
 
-        public FormSupervisor(Credencial usuario)
+        public FormAdministrador(Credencial usuario)
         {
             InitializeComponent();
             this.usuario = usuario;
         }
+
     }
 }

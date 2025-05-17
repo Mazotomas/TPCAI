@@ -46,23 +46,6 @@ namespace TemplateTPCorto
                 return;
             }
 
-
-            MessageBox.Show("Login Exitoso");
-
-
-            if (resultado.Usuario is Operador)
-            {
-                MessageBox.Show("Operador");
-            }
-            else if (resultado.Usuario is Supervisor)
-            {
-                MessageBox.Show("Supervisor");
-            }
-            else if (resultado.Usuario is Administrador)
-            {
-                MessageBox.Show("Administrador");
-            }
-
             if (resultado.CambiarClave)
             {
                 MessageBox.Show("Debe cambiar su contraseña porque hace más de 30 días del último login.");
@@ -76,8 +59,26 @@ namespace TemplateTPCorto
             }
             else
             {
-                // Continuar con la redirección normal
-                //RedirigirSegunRol(resultado.Usuario);
+                MessageBox.Show("Login Exitoso");
+
+                if (resultado.Usuario is Operador)
+                {
+                    FormOperador formOperador = new FormOperador(resultado.Usuario);
+                    formOperador.Show();
+                }
+                else if (resultado.Usuario is Supervisor)
+                {
+                    FormSupervisor formSupervisor = new FormSupervisor(resultado.Usuario);
+                    formSupervisor.Show();
+                }
+                else if (resultado.Usuario is Administrador)
+                {
+                    FormAdministrador formAdministrador = new FormAdministrador(resultado.Usuario);
+                    formAdministrador.Show();
+                }
+
+                // Opcional: ocultar o cerrar el login para no volver atrás
+                this.Hide();
             }
 
 
