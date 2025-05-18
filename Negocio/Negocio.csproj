@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CambioContraseña.cs" />
+    <Compile Include="AutorizacionesNegocio.cs" />
     <Compile Include="DesbloqueoCredencial.cs" />
     <Compile Include="PersonaNegocio.cs" />
     <Compile Include="LoginNegocio.cs" />
