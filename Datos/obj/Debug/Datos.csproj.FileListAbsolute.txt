@@ -22,3 +22,9 @@ C:\Users\Sir Sibelius\source\repos\TPCAI\Datos\obj\Debug\Datos.csproj.AssemblyRe
 C:\Users\Sir Sibelius\source\repos\TPCAI\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Sir Sibelius\source\repos\TPCAI\Datos\obj\Debug\Datos.dll
 C:\Users\Sir Sibelius\source\repos\TPCAI\Datos\obj\Debug\Datos.pdb
+D:\Descargas\Ultimo TP\TPCAI\Datos\bin\Debug\Datos.dll
+D:\Descargas\Ultimo TP\TPCAI\Datos\bin\Debug\Datos.pdb
+D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.dll
+D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.pdb
