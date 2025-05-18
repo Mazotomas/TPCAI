@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Datos;
 using Datos.Persona;
 
 namespace Persistencia
@@ -15,6 +16,8 @@ namespace Persistencia
             Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DataBase", "Tablas", "autorizacion.csv");
         private readonly string _rutaOp =
             Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DataBase", "Tablas", "operacion_cambio_persona.csv");
+        private readonly string _rutaCred =
+           Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DataBase", "Tablas", "operacion_cambio_credencial.csv");
 
         public int ProximoIdAutorizacion()
         {
@@ -84,6 +87,26 @@ namespace Persistencia
             using (StreamWriter sw = new StreamWriter(_rutaOp, true))
             {
                 sw.WriteLine($"{idOperacion};{persona.Legajo};{persona.Nombre};{persona.Apellido};{persona.DNI};{persona.FechaIngreso:dd/MM/yyyy}");
+            }
+        }
+
+        public void GrabarOperacionCambioCredencial(Credencial credencial,int idOperacion)
+        {
+            Directory.CreateDirectory(Path.GetDirectoryName(_rutaCred)); // Asegura que la carpeta exista
+
+            // Leer contenido para chequear salto de línea
+            string contenido = File.ReadAllText(_rutaCred);
+
+            // Si no termina en salto de línea, lo agrego ANTES de abrir StreamWriter
+            if (!contenido.EndsWith("\n") && !contenido.EndsWith("\r\n"))
+            {
+                File.AppendAllText(_rutaCred, Environment.NewLine);
+            }
+
+            // Ahora abro StreamWriter para agregar la línea
+            using (StreamWriter sw = new StreamWriter(_rutaCred, true))
+            {
+                sw.WriteLine($"{idOperacion};{credencial.Legajo};{credencial.NombreUsuario};{credencial.Contrasena};{null};{credencial.FechaAlta:dd/MM/yyyy};{credencial.FechaUltimoLogin:dd/MM/yyyy}");
             }
         }
     }

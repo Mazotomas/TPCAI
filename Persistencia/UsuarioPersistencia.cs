@@ -196,5 +196,19 @@ namespace Persistencia
                 Console.WriteLine("Error al actualizar fecha de último login: " + ex.Message);
             }
         }
+
+        public string BuscarLineaLegajo(string legajo)
+        {
+            var lineas = File.ReadAllLines(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DataBase", "Tablas", "credenciales.csv")).Skip(1); // salta encabezado
+            foreach (string linea in lineas)
+            {
+                string[] campos = linea.Split(';');
+                if (campos.Length > 1 && campos[0] == legajo)
+                {
+                    return linea;
+                }
+            }
+            return null;
+        }
     }
 }

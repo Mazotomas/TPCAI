@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Descargas\\TPCAI_INTERNO2\\TPCAI\\TPCAI\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\sir sibelius\\source\\repos\\tpcai\\templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\sir sibelius\\source\\repos\\tpcai\\templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|c:\\users\\sir sibelius\\source\\repos\\tpcai\\persistencia\\operacionpersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\operacionpersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\sir sibelius\\source\\repos\\tpcai\\templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\sir sibelius\\source\\repos\\tpcai\\templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\sir sibelius\\source\\repos\\tpcai\\templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\sir sibelius\\source\\repos\\tpcai\\negocio\\desbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\desbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,6 +107,95 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormDesbloqueoCredencial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "ToolTip": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPCorto\\FormDesbloqueoCredencial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:42:57.507Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\Program.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\Program.cs",
+              "ToolTip": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\Program.cs",
+              "RelativeToolTip": "TemplateTPCorto\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:32:25.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormSupervisor.cs",
+              "DocumentMoniker": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormSupervisor.cs",
+              "ToolTip": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormSupervisor.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwC4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:36:02.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormSupervisor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormSupervisor.cs",
+              "ToolTip": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPCorto\\FormSupervisor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:35:59.835Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OperacionPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\Persistencia\\OperacionPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\OperacionPersistencia.cs",
+              "ToolTip": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\Persistencia\\OperacionPersistencia.cs",
+              "RelativeToolTip": "Persistencia\\OperacionPersistencia.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:25:20.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDesbloqueoCredencial.cs",
+              "DocumentMoniker": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "ToolTip": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwD0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:43:54.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DesbloqueoCredencial.cs",
+              "DocumentMoniker": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\Negocio\\DesbloqueoCredencial.cs",
+              "RelativeDocumentMoniker": "Negocio\\DesbloqueoCredencial.cs",
+              "ToolTip": "C:\\Users\\Sir Sibelius\\source\\repos\\TPCAI\\Negocio\\DesbloqueoCredencial.cs",
+              "RelativeToolTip": "Negocio\\DesbloqueoCredencial.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwDAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:07:03.692Z",
+              "EditorCaption": ""
             }
           ]
         }

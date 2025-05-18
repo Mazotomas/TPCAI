@@ -126,6 +126,14 @@ namespace TemplateTPCorto
             txtFechaIngreso.Clear();
             _personaOriginal = null;
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            FormSupervisor formSupervisor = new FormSupervisor(usuario);
+            formSupervisor.Show();
+           
+            this.Hide();
+        }
     }
     
 }
