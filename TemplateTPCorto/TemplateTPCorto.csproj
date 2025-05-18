@@ -52,11 +52,11 @@
     <Compile Include="FormAdministrador.Designer.cs">
       <DependentUpon>FormAdministrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDesloqueoCredencial.cs">
+    <Compile Include="FormDesbloqueoCredencial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDesloqueoCredencial.Designer.cs">
-      <DependentUpon>FormDesloqueoCredencial.cs</DependentUpon>
+    <Compile Include="FormDesbloqueoCredencial.Designer.cs">
+      <DependentUpon>FormDesbloqueoCredencial.cs</DependentUpon>
     </Compile>
     <Compile Include="FormModificarPersona.cs">
       <SubType>Form</SubType>
@@ -90,8 +90,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormDesloqueoCredencial.resx">
-      <DependentUpon>FormDesloqueoCredencial.cs</DependentUpon>
+    <EmbeddedResource Include="FormDesbloqueoCredencial.resx">
+      <DependentUpon>FormDesbloqueoCredencial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormModificarPersona.resx">
       <DependentUpon>FormModificarPersona.cs</DependentUpon>

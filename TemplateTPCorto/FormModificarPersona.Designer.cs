@@ -154,9 +154,9 @@
             // btnGuardar
             // 
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.btnGuardar.Location = new System.Drawing.Point(105, 365);
+            this.btnGuardar.Location = new System.Drawing.Point(92, 364);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(160, 40);
+            this.btnGuardar.Size = new System.Drawing.Size(182, 40);
             this.btnGuardar.TabIndex = 12;
             this.btnGuardar.Text = "Solicitar Autorizacion";
             this.btnGuardar.UseVisualStyleBackColor = true;

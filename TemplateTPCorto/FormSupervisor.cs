@@ -32,7 +32,7 @@ namespace TemplateTPCorto
 
         private void BtnModificar_Click(object sender, EventArgs e)
         {
-            FormModificarPersona formModificar = new FormModificarPersona();
+            FormModificarPersona formModificar = new FormModificarPersona(usuario);
             formModificar.Show();
 
             // ocultar o cerrar el login
