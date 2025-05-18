@@ -34,7 +34,7 @@ namespace TemplateTPCorto
         }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            string nuevaContra = txtCambioContraseña.Text;
+            string nuevaContra = txtCambioContraseña.Text.Trim();
 
             if (string.IsNullOrWhiteSpace(nuevaContra))
             {

@@ -38,3 +38,23 @@ D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Persistencia\obj\Debug\Persistencia.cspr
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Persistencia\obj\Debug\Persistencia.dll
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\autorizacion.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\credenciales.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\login_intentos.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\operacion_cambio_credencial.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\operacion_cambio_persona.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\perfil.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\perfil_rol.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\persona.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\rol.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\usuario_bloqueado.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\DataBase\Tablas\usuario_perfil.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\Datos.dll
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\bin\Debug\Datos.pdb
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\obj\Debug\Persistencia.csproj.AssemblyReference.cache
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Sir Sibelius\source\repos\TPCAI\Persistencia\obj\Debug\Persistencia.pdb

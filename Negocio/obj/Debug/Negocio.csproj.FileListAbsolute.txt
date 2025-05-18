@@ -64,3 +64,25 @@ D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Negocio\obj\Debug\Negocio.csproj.CoreCom
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Negocio\obj\Debug\Negocio.csproj.Up2Date
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Negocio\obj\Debug\Negocio.dll
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\autorizacion.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\credenciales.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\login_intentos.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\operacion_cambio_credencial.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\operacion_cambio_persona.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\perfil.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\perfil_rol.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\persona.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\rol.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\usuario_bloqueado.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\DataBase\Tablas\usuario_perfil.csv
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\Negocio.dll
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\Datos.dll
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\Persistencia.dll
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\Datos.pdb
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\obj\Debug\Negocio.dll
+C:\Users\Sir Sibelius\source\repos\TPCAI\Negocio\obj\Debug\Negocio.pdb

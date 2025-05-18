@@ -41,7 +41,11 @@ namespace TemplateTPCorto
 
         private void BtnDesbloquear_Click(object sender, EventArgs e)
         {
+            FormDesbloqueoCredencial formDesbloqueo = new FormDesbloqueoCredencial(usuario);
+            formDesbloqueo.Show();
 
+            // ocultar o cerrar ventana
+            this.Hide();
         }
     }
 }

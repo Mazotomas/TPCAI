@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Datos;
+using Datos.Persona;
+using Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,22 +10,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Negocio;
 
 namespace TemplateTPCorto
 {
     public partial class FormDesbloqueoCredencial : Form
     {
+        private Credencial usuario;
+    
 
-        public FormDesbloqueoCredencial()
+        public FormDesbloqueoCredencial(Credencial usuario)
         {
             InitializeComponent();
+            this.usuario = usuario;
         }
 
         private void btnSolicitarAutorizacion_Click(object sender, EventArgs e)
         {
             DesbloqueoCredencial solicitud = new DesbloqueoCredencial();
+            
             string legajo = txtLegajo.Text.Trim();
+            string nuevaContraseña = txtNuevaContraseña.Text.Trim();
+            
 
             if (string.IsNullOrEmpty(legajo))
             {
@@ -30,6 +38,38 @@ namespace TemplateTPCorto
                 return;
             }
 
+            if (string.IsNullOrEmpty(nuevaContraseña) || nuevaContraseña.Length < 8)
+            {
+                MessageBox.Show("Ingrese una nueva contraseña de 8 o más caracteres.");
+                return;
+            }
+
+            if (!solicitud.ConsultaBloqueo(legajo))
+            {
+                MessageBox.Show("El usuario no está bloqueado.");
+                return;
+            }
+                       
+
+            Credencial credencial = solicitud.ObtenerCredencialDesbloqueo(legajo);
+
+            credencial.Contrasena = nuevaContraseña;
+            credencial.FechaUltimoLogin = null;
+
+            solicitud.SolicitarAutorizacionDesbloqueo(credencial, usuario.Legajo);
+
+            MessageBox.Show("Solicitud realizada correctamente.");
+            txtLegajo.Clear();
+            txtNuevaContraseña.Clear();
+
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            FormSupervisor formSupervisor = new FormSupervisor(usuario);
+            formSupervisor.Show();
+
+            this.Hide();
         }
     }
 }
