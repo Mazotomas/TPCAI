@@ -52,7 +52,6 @@ D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\bin\Debug\Datos.pdb
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\bin\Debug\Negocio.pdb
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\bin\Debug\Persistencia.pdb
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.csproj.AssemblyReference.cache
-D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormDesloqueoCredencial.resources
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormModificarPersona.resources
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormCambiarContraseña.resources
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormLogin.resources
@@ -64,3 +63,4 @@ D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCort
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\Template.E57F9EC8.Up2Date
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.exe
 D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.pdb
+D:\Descargas\TPCAI_INTERNO2\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormDesbloqueoCredencial.resources

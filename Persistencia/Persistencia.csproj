@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OperacionPersistencia.cs" />
     <Compile Include="PersonaPersistencia.cs" />
     <Compile Include="ContraseñaPersistencia.cs" />
     <Compile Include="DataBase\DataBaseUtils.cs" />

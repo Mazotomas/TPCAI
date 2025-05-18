@@ -31,5 +31,14 @@ namespace Datos.Persona
             this._fechaIngreso = DateTime.ParseExact(datos[4], "dd/MM/yyyy", CultureInfo.InvariantCulture);
         }
 
+        public Persona(string legajo, string nombre, string apellido, int dni, DateTime fechaIngreso)
+        {
+            this._legajo = legajo;
+            this._nombre = nombre;
+            this._apellido = apellido;
+            this._Dni = dni;
+            this._fechaIngreso = fechaIngreso;
+        }
+
     }
 }
