@@ -25,6 +25,13 @@ namespace TemplateTPCorto
             this.usuario = usuario;
             negocioCambio = new CambioContraseña();
         }
+        private void FormCambiarContraseña_FormClosing(object sender, FormClosingEventArgs e)
+
+        {
+
+            Application.Exit(); // Finaliza todo el programa
+
+        }
 
         // Aquí podés usar usuario para mostrar datos o validar.
         // Y loginNegocio para llamar al método cambio de clave.

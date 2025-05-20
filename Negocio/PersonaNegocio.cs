@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Datos.Persona;
 using Persistencia;
@@ -16,9 +17,43 @@ namespace Negocio
 
         public Persona ObtenerPersona(string legajo)
         {
-            // Aquí puedes agregar validaciones de formato, etc.
+            
             return _personaPersistencia.BuscarPorLegajo(legajo);
         }
+        
+        public bool ValidacionTexto(string persona)
+        {
+            bool validacion = true;
+
+            if (persona == null || persona.Contains(";") || persona.Any(char.IsDigit) || !Regex.IsMatch(persona, @"^[a-zA-Z0-9]+$")) 
+            {
+                validacion = false;
+            }
+            return validacion;
+        }
+        public bool ValidacionNumero(string numero)
+        {
+            bool validacion = true;
+
+            if (numero == null || numero.Contains(";") || !numero.All(char.IsDigit) || numero.Length < 7 || numero.Length > 8)
+            {
+                validacion = false;
+            }
+            return validacion;
+        }
+        public bool ValidacionFecha(string fechaNueva)
+        {
+            bool validacion = true;
+
+            if (fechaNueva == null || fechaNueva.Contains(";") || !DateTime.TryParse(fechaNueva, out DateTime fecha) || fecha.Year < 2000 || fecha > DateTime.Now)
+            {
+                validacion = false;
+            }
+
+            return validacion;
+            
+        }
+
 
         public IEnumerable<(string Campo, string Anterior, string Nuevo)>
         ObtenerCambios(Persona original, Persona editada)

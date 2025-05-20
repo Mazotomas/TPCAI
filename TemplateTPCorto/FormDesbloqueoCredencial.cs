@@ -23,7 +23,13 @@ namespace TemplateTPCorto
             InitializeComponent();
             this.usuario = usuario;
         }
+        private void FormDesbloqueoCredencial_FormClosing(object sender, FormClosingEventArgs e)
 
+        {
+
+            Application.Exit(); // Finaliza todo el programa
+
+        }
         private void btnSolicitarAutorizacion_Click(object sender, EventArgs e)
         {
             DesbloqueoCredencial solicitud = new DesbloqueoCredencial();
@@ -38,7 +44,7 @@ namespace TemplateTPCorto
                 return;
             }
 
-            if (string.IsNullOrEmpty(nuevaContraseña) || nuevaContraseña.Length < 8)
+            if (string.IsNullOrEmpty(nuevaContraseña) || nuevaContraseña.Length < 8 || nuevaContraseña.Contains(";"))
             {
                 MessageBox.Show("Ingrese una nueva contraseña de 8 o más caracteres.");
                 return;

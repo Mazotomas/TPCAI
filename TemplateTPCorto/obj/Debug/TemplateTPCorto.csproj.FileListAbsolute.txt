@@ -19,7 +19,6 @@ C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCo
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\bin\Debug\Negocio.pdb
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\bin\Debug\Persistencia.pdb
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.csproj.AssemblyReference.cache
-C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormDesloqueoCredencial.resources
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormModificarPersona.resources
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormCambiarContraseña.resources
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormLogin.resources
@@ -132,3 +131,5 @@ D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.csproj.Co
 D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\Template.E57F9EC8.Up2Date
 D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.exe
 D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.pdb
+C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormAdministrador.resources
+C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormDesbloqueoCredencial.resources

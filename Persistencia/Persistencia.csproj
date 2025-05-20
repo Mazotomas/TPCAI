@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Autorizaciones.cs" />
+    <Compile Include="AutorizacionesPersistencia.cs" />
     <Compile Include="OperacionPersistencia.cs" />
     <Compile Include="PersonaPersistencia.cs" />
     <Compile Include="ContraseñaPersistencia.cs" />

@@ -1,18 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Descargas\\Ultimo TP\\TPCAI\\",
+  "WorkspaceRootPath": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\negocio\\cambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\cambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\negocio\\personanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\personanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formdesbloqueocredencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\templatetpcorto\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|d:\\descargas\\ultimo tp\\tpcai\\persistencia\\autorizaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\autorizaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\persistencia\\usuariopersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\usuariopersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\persistencia\\autorizacionespersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\autorizacionespersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|c:\\users\\agustin\\documents\\sistemas\\cai\\repos\\verdadero\\tpcai\\tpcai\\negocio\\autorizacionesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\autorizacionesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +50,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 17,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -31,10 +71,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -85,48 +121,130 @@
               "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Autorizaciones.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\Autorizaciones.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Autorizaciones.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\Autorizaciones.cs",
-              "RelativeToolTip": "Persistencia\\Autorizaciones.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAEwIoAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormLogin.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormLogin.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormLogin.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:01:58.633Z",
+              "WhenOpened": "2025-05-20T00:11:10.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FormDesbloqueoCredencial.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:09:12.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDesbloqueoCredencial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormDesbloqueoCredencial.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormDesbloqueoCredencial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPCorto\\FormDesbloqueoCredencial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:09:07.054Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\PersonaNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\PersonaNegocio.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\PersonaNegocio.cs",
+              "RelativeToolTip": "Negocio\\PersonaNegocio.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:16:32.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CambioContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\CambioContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "Negocio\\CambioContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\CambioContrase\u00F1a.cs",
+              "RelativeToolTip": "Negocio\\CambioContrase\u00F1a.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:59:41.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Persistencia\\UsuarioPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\UsuarioPersistencia.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Persistencia\\UsuarioPersistencia.cs",
+              "RelativeToolTip": "Persistencia\\UsuarioPersistencia.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAIwLcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:31:16.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutorizacionesNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\AutorizacionesNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\AutorizacionesNegocio.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Negocio\\AutorizacionesNegocio.cs",
+              "RelativeToolTip": "Negocio\\AutorizacionesNegocio.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwEgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:27:05.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutorizacionesPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Persistencia\\AutorizacionesPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\AutorizacionesPersistencia.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\Persistencia\\AutorizacionesPersistencia.cs",
+              "RelativeToolTip": "Persistencia\\AutorizacionesPersistencia.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:18:47.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormAdministrador.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormAdministrador.cs",
               "RelativeDocumentMoniker": "TemplateTPCorto\\FormAdministrador.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormAdministrador.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\FormAdministrador.cs",
               "RelativeToolTip": "TemplateTPCorto\\FormAdministrador.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAswHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T23:00:59.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\Program.cs",
               "RelativeDocumentMoniker": "TemplateTPCorto\\Program.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\Program.cs",
+              "ToolTip": "C:\\Users\\Agustin\\Documents\\Sistemas\\CAI\\repos\\VERDADERO\\TPCAI\\TPCAI\\TemplateTPCorto\\Program.cs",
               "RelativeToolTip": "TemplateTPCorto\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T22:53:54.97Z",
               "EditorCaption": ""

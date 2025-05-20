@@ -20,6 +20,13 @@ namespace TemplateTPCorto
             InitializeComponent();
             this.usuario = usuario;
         }
+        private void FormSupervisor_FormClosing(object sender, FormClosingEventArgs e)
+
+        {
+
+            Application.Exit(); // Finaliza todo el programa
+
+        }
 
         private void BtnCambioClave_Click(object sender, EventArgs e)
         {

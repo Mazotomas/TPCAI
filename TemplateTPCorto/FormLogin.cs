@@ -18,7 +18,13 @@ namespace TemplateTPCorto
         {
             InitializeComponent();
         }
+        private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
 
+        {
+
+            Application.Exit(); // Finaliza todo el programa
+
+        }
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             String usuario = txtUsuario.Text;
@@ -80,6 +86,8 @@ namespace TemplateTPCorto
                 // ocultar el login para no volver atrás
                 this.Hide();
             }
+           
+
 
         }
 

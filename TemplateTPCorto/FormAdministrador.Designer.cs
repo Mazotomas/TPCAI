@@ -158,6 +158,7 @@
             this.Controls.Add(this.listCambios);
             this.Name = "FormAdministrador";
             this.Text = "Administrador";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FormAdministrador_MouseDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

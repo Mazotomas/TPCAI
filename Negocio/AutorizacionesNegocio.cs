@@ -11,7 +11,7 @@ namespace Negocio
     {
         public List<string[]> CargadeListaCambios()
         {
-            Autorizaciones autorizaciones = new Autorizaciones();
+            AutorizacionesPersistencia autorizaciones = new AutorizacionesPersistencia();
 
             List<string[]> todas = autorizaciones.ObtenerAutorizaciones();
 
@@ -35,7 +35,7 @@ namespace Negocio
 
         public List<string[]> CargadeListaDesbloqueos()
         {
-            Autorizaciones autorizaciones = new Autorizaciones();
+            AutorizacionesPersistencia autorizaciones = new AutorizacionesPersistencia();
 
             
             List<string[]> todas = autorizaciones.ObtenerAutorizaciones();
@@ -59,14 +59,20 @@ namespace Negocio
 
         public void CargarContraseña(string legajo, string contraseña)
         {
-            Autorizaciones autorizaciones = new Autorizaciones();
+            AutorizacionesPersistencia autorizaciones = new AutorizacionesPersistencia();
             autorizaciones.RealizarCambioClave(legajo, contraseña);
+
+        }
+        public void CargarPersona(string legajo, string nombre, string apellido, string dni, string fechaIngreso)
+        {
+            AutorizacionesPersistencia autorizaciones = new AutorizacionesPersistencia();
+            autorizaciones.RealizarCambioPersona(legajo, nombre, apellido, dni, fechaIngreso);
 
         }
 
         public void AutorizarSolicitud(string id, string legajoAut)
         {
-            Autorizaciones autorizaciones = new Autorizaciones();
+            AutorizacionesPersistencia autorizaciones = new AutorizacionesPersistencia();
             autorizaciones.AutorizarCampos(id, legajoAut);
         }
 

@@ -24,7 +24,13 @@ namespace TemplateTPCorto
             InitializeComponent();
             this.usuario = usuario;
         }
+        private void FormModificarpersona_FormClosing(object sender, FormClosingEventArgs e)
 
+        {
+
+            Application.Exit(); // Finaliza todo el programa
+
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -69,7 +75,7 @@ namespace TemplateTPCorto
                 txtNombre.Text = _personaOriginal.Nombre;
                 txtApellido.Text = _personaOriginal.Apellido;
                 txtDNI.Text = _personaOriginal.DNI.ToString();
-                txtFechaIngreso.Text = _personaOriginal.FechaIngreso.ToString();
+                txtFechaIngreso.Text = _personaOriginal.FechaIngreso.ToString("dd/MM/yyyy");
             }
             catch (Exception ex)
             {
@@ -82,6 +88,30 @@ namespace TemplateTPCorto
             if (_personaOriginal == null)
             {
                 MessageBox.Show("Primero busque un legajo.");
+                return;
+            }
+
+            if (!(_personaNegocio.ValidacionTexto(txtNombre.Text.Trim())))
+            {
+                MessageBox.Show("El nombre debe contener solo letras.");
+                return;
+            }
+
+            if (!(_personaNegocio.ValidacionTexto(txtApellido.Text.Trim())))
+            {
+                MessageBox.Show("El apellido debe contener solo letras.");
+                return; 
+            }
+
+            if (!(_personaNegocio.ValidacionNumero(txtDNI.Text.Trim())))
+            {
+                MessageBox.Show("El DNI debe ser valido.");
+                return;
+            }
+
+            if (!(_personaNegocio.ValidacionFecha(txtFechaIngreso.Text.Trim())))
+            {
+                MessageBox.Show("La fecha debe estar en formato dd/MM/aaaa y menor o igual al dia de hoy.");
                 return;
             }
 

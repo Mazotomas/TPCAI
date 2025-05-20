@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Persistencia
 {
-    public class Autorizaciones
+    public class AutorizacionesPersistencia
     {
         public List<string[]> ObtenerAutorizaciones()
         {
@@ -102,6 +102,44 @@ namespace Persistencia
                             // Actualiza la fecha de último login vacia
                             campos[4] = null;
                             campos[2] = contraseña;
+                        }
+
+                        nuevasLineas.Add(string.Join(";", campos));
+                    }
+
+                    // Sobrescribe el archivo con los cambios
+                    File.WriteAllLines(archivoCsv, nuevasLineas);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al actualizar fecha de último login: " + ex.Message);
+            }
+        }
+        public void RealizarCambioPersona(string legajo, string nombre, string apellido, string dni, string fechaIngreso)
+        {
+            string archivoCsv = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DataBase", "Tablas", "persona.csv");
+
+            try
+            {
+                var lineas = File.ReadAllLines(archivoCsv).ToList();
+
+                if (lineas.Count > 1)
+                {
+                    string encabezado = lineas[0];
+                    var nuevasLineas = new List<string> { encabezado };
+
+                    for (int i = 1; i < lineas.Count; i++)
+                    {
+                        string[] campos = lineas[i].Split(';');
+
+                        if (campos.Length == 5 && campos[0] == legajo)
+                        {
+                            // Actualiza los campos de persona
+                            campos[1] = nombre;
+                            campos[2] = apellido;
+                            campos[3] = dni;
+                            campos[4] = fechaIngreso;
                         }
 
                         nuevasLineas.Add(string.Join(";", campos));

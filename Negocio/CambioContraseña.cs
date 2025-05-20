@@ -17,9 +17,9 @@ namespace Negocio
 
             ContraseñaPersistencia persistencia = new ContraseñaPersistencia();
 
-            if (nuevaContraseña.Length < 8)
+            if (nuevaContraseña.Length < 8 || nuevaContraseña.Contains(";"))
             {
-                return "Debe contener 8 o más caracteres.";
+                return "Debe contener 8 o más caracteres validos.";
             }
             if (contraseña == nuevaContraseña)
             {
