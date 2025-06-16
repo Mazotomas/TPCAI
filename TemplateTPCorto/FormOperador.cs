@@ -38,13 +38,17 @@ namespace TemplateTPCorto
             FormCambiarContraseña formCambio = new FormCambiarContraseña(usuario);
             formCambio.Show();
 
-            // Opcional: ocultar o cerrar el login
+            // ocultar o cerrar el login
             this.Hide();
         }
 
         private void BtnSiguiente_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aun no hace nada");
+            FormVentas formVenta = new FormVentas();
+            formVenta.Show();
+
+            // ocultar o cerrar el login
+            this.Hide();
         }
     }
 }

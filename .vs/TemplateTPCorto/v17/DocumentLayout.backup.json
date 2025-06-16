@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Descargas\\Ultimo TP\\TPCAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|d:\\descargas\\ultimo tp\\tpcai\\persistencia\\autorizaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\autorizaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|d:\\descargas\\ultimo tp\\tpcai\\negocio\\ventasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\ventasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|d:\\descargas\\ultimo tp\\tpcai\\persistencia\\clientepersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\clientepersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -95,41 +103,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Autorizaciones.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\Autorizaciones.cs",
-              "RelativeDocumentMoniker": "Persistencia\\Autorizaciones.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\Autorizaciones.cs",
-              "RelativeToolTip": "Persistencia\\Autorizaciones.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAEwIoAAAAzAAAAAAAAAA==",
+              "Title": "FormSupervisor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormSupervisor.cs",
+              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPCorto\\FormSupervisor.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:01:58.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T19:43:54.044Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAdministrador.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormAdministrador.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\FormAdministrador.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormAdministrador.cs",
-              "RelativeToolTip": "TemplateTPCorto\\FormAdministrador.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAswHcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ClientePersistencia.cs",
+              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\ClientePersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\ClientePersistencia.cs",
+              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\ClientePersistencia.cs",
+              "RelativeToolTip": "Persistencia\\ClientePersistencia.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:00:59.22Z",
+              "WhenOpened": "2025-06-16T19:14:42.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\Program.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\Program.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\Program.cs",
-              "RelativeToolTip": "TemplateTPCorto\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Title": "VentasNegocio.cs",
+              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\Negocio\\VentasNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\VentasNegocio.cs",
+              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\Negocio\\VentasNegocio.cs",
+              "RelativeToolTip": "Negocio\\VentasNegocio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:53:54.97Z",
+              "WhenOpened": "2025-06-16T19:13:56.591Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormVentas.cs",
+              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormVentas.cs",
+              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
+              "RelativeToolTip": "TemplateTPCorto\\FormVentas.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:11:35.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormVentas.cs",
+              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPCorto\\FormVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:11:30.863Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -133,3 +133,6 @@ D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.exe
 D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.pdb
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormAdministrador.resources
 C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormDesbloqueoCredencial.resources
+D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormVentas.resources
+D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\bin\Debug\Newtonsoft.Json.dll
+D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\bin\Debug\Newtonsoft.Json.xml
