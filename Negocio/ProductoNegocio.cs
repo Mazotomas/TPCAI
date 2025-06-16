@@ -27,5 +27,22 @@ namespace Negocio
             }
             return productosConStock;
         }
+
+        public Producto agregarProductoCarrito(int cantidad, Producto producto)
+        {
+            Producto productoAgregado = new Producto(producto);
+            if (cantidad > productoAgregado.Stock)
+            {
+                productoAgregado.Stock = 0;
+                return productoAgregado;
+            }
+           
+            productoAgregado.Precio = producto.Precio * cantidad;
+            productoAgregado.Stock = cantidad;
+
+            return productoAgregado;
+        }
+         
     }
 }
+
