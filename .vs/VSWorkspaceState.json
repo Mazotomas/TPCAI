@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Datos",
+    "\\Datos\\Ventas",
+    "\\Negocio",
+    "\\Persistencia",
+    "\\TemplateTPCorto"
   ],
-  "SelectedNode": "\\TemplateTPCorto.sln",
+  "SelectedNode": "\\Persistencia\\ClientePersistencia.cs",
   "PreviewInSolutionExplorer": false
 }

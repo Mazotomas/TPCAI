@@ -136,3 +136,6 @@ C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCo
 D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormVentas.resources
 D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\bin\Debug\Newtonsoft.Json.dll
 D:\Descargas\Ultimo TP\TPCAI\TemplateTPCorto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\TemplateTPCorto\obj\Debug\TemplateTPCorto.FormVentas.resources

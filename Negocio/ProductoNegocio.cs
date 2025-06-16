@@ -1,4 +1,5 @@
 ﻿using Datos.Ventas;
+using Persistencia;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,20 @@ namespace Negocio
     {
         public List<Producto> obtenerProductosPorCategoria(String categoria)
         {
-            // Aplico la logica de negocio
+            List<Producto> productos = new List<Producto>();
+            ProductoPersistencia productoPersistencia = new ProductoPersistencia();
+            
+            productos = productoPersistencia.obtenerProductosPorCategoria(categoria);
+            List<Producto> productosConStock = new List<Producto>();
 
-            // 1- Mostrar solo productos que tienen stock positivo
-            return null;
+            foreach (Producto p in productos)
+            {
+                if (p.Stock > 0)
+                {
+                    productosConStock.Add(p);
+                }
+            }
+            return productosConStock;
         }
     }
 }

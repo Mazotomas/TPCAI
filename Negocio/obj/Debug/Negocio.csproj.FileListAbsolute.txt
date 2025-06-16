@@ -110,3 +110,5 @@ D:\Descargas\Ultimo TP\TPCAI\Negocio\obj\Debug\Negocio.dll
 D:\Descargas\Ultimo TP\TPCAI\Negocio\obj\Debug\Negocio.pdb
 D:\Descargas\Ultimo TP\TPCAI\Negocio\bin\Debug\Newtonsoft.Json.dll
 D:\Descargas\Ultimo TP\TPCAI\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Agustin\Documents\Sistemas\CAI\repos\VERDADERO\TPCAI\TPCAI\Negocio\bin\Debug\Newtonsoft.Json.xml
