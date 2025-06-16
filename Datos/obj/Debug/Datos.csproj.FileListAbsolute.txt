@@ -28,3 +28,9 @@ D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.csproj.AssemblyReference.cach
 D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.dll
 D:\Descargas\Ultimo TP\TPCAI\Datos\obj\Debug\Datos.pdb
+C:\Users\usuario\Documents\GitHub\Trabajo Práctico\TPCAI\Datos\bin\Debug\Datos.dll
+C:\Users\usuario\Documents\GitHub\Trabajo Práctico\TPCAI\Datos\bin\Debug\Datos.pdb
+C:\Users\usuario\Documents\GitHub\Trabajo Práctico\TPCAI\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\Trabajo Práctico\TPCAI\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\Trabajo Práctico\TPCAI\Datos\obj\Debug\Datos.dll
+C:\Users\usuario\Documents\GitHub\Trabajo Práctico\TPCAI\Datos\obj\Debug\Datos.pdb

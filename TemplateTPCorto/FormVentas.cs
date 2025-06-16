@@ -16,6 +16,7 @@ namespace TemplateTPCorto
 {
     public partial class FormVentas : Form
     {
+        List<Producto> listaProductos = new List<Producto>();
         public FormVentas()
         {
             InitializeComponent();
@@ -72,12 +73,19 @@ namespace TemplateTPCorto
             List<Producto> productosConStock = new List<Producto>();
             if (cboCategoriaProductos.SelectedValue != null)
             {
-                string idCategoria = cboCategoriaProductos.SelectedValue.ToString();
-                MessageBox.Show(idCategoria);
+                if (listBox1.Items.Count > 0)
+                {
+                    MessageBox.Show("Por favor, vacíe el carrito o finalice la carga antes de cambiar de categoría.");
+                    return;
+                }
                 
+                string idCategoria = cboCategoriaProductos.SelectedValue.ToString();
+                               
                 productosConStock = productoNegocio.obtenerProductosPorCategoria(idCategoria);
-                lstProducto.DataSource = productosConStock;
+                listaProductos = productosConStock;
+                lstProducto.DataSource = listaProductos;
                 // usar idCategoria
+
 
             }
             else
@@ -105,17 +113,76 @@ namespace TemplateTPCorto
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            string cantidad = txtCantidad.Text;
+            ProductoNegocio productoNegocio = new ProductoNegocio();
+            int numero;
+            if (!int.TryParse(cantidad, out numero)) // Validar que sea un número
+            {
+                // No es un número
+                MessageBox.Show("No es un número válido");
+                return;
+            } 
 
             if (lstProducto.SelectedItem != null)
             {
                 Producto seleccionado = (Producto)lstProducto.SelectedItem;
-                MessageBox.Show("Seleccionaste: " + seleccionado.Nombre);
-                string cantidad = txtCantidad.Text; //Validar que sea un numero
+                Producto productoAgregado = productoNegocio.agregarProductoCarrito(numero, seleccionado);
+                if (productoAgregado.Stock == 0)
+                {
+                    MessageBox.Show("Cantidad no disponible.");
+                    return;
+                }                    
+                listBox1.Items.Add(productoNegocio.agregarProductoCarrito(numero, seleccionado));
+                seleccionado.Stock = seleccionado.Stock - numero;
+               
+                lstProducto.DataSource = null;
+                lstProducto.DataSource = listaProductos;
+
             }
             else
             {
-                MessageBox.Show("Por favor, seleccioná una categoría válida.");
+                MessageBox.Show("Por favor, seleccioná un producto.");
             }
+        }
+
+        private void txtCantidad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnQuitar_Click(object sender, EventArgs e)
+        {
+            // Verificamos que haya un producto seleccionado
+            if (listBox1.SelectedItem != null)
+            {
+                Producto seleccionado = (Producto)listBox1.SelectedItem;
+                listBox1.Items.Remove(seleccionado);
+                foreach (Producto a in listaProductos)
+                {
+                    if (a.Id == seleccionado.Id)
+                    {
+                        a.Stock = a.Stock + seleccionado.Stock;
+                    }
+                }
+
+                // Refrescar la lista
+                lstProducto.DataSource = null;
+                lstProducto.DataSource = listaProductos;
+            }
+            else
+            {
+                MessageBox.Show("Seleccioná un producto del carrito para quitar.");
+            }
+        }
+
+        private void lstProducto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

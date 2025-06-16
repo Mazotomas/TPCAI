@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Descargas\\Ultimo TP\\TPCAI\\",
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|c:\\users\\usuario\\documents\\github\\trabajo pr\u00E1ctico\\tpcai\\templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formsupervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|d:\\descargas\\ultimo tp\\tpcai\\negocio\\ventasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\productonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|c:\\users\\usuario\\documents\\github\\trabajo pr\u00E1ctico\\tpcai\\datos\\ventas\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF50A35-3AEF-461D-90B9-687B77B5746F}|Datos\\Datos.csproj|solutionrelative:datos\\ventas\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\negocio\\ventasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1A65A0D-8346-4FB0-B5E1-28E573A6CAC3}|Negocio\\Negocio.csproj|solutionrelative:negocio\\ventasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|d:\\descargas\\ultimo tp\\tpcai\\persistencia\\clientepersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\clientepersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\persistencia\\ventapersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\ventapersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|d:\\descargas\\ultimo tp\\tpcai\\templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A8F139-F72A-4006-A6A9-4BE6326EF863}|TemplateTPCorto\\TemplateTPCorto.csproj|solutionrelative:templatetpcorto\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\persistencia\\clientepersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CC7902-A146-4647-92C1-E39EBB515403}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\clientepersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,66 +110,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormSupervisor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\FormSupervisor.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormSupervisor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPCorto\\FormSupervisor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T19:43:54.044Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ClientePersistencia.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\ClientePersistencia.cs",
-              "RelativeDocumentMoniker": "Persistencia\\ClientePersistencia.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\Persistencia\\ClientePersistencia.cs",
-              "RelativeToolTip": "Persistencia\\ClientePersistencia.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Datos\\Ventas\\Producto.cs",
+              "RelativeDocumentMoniker": "Datos\\Ventas\\Producto.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Datos\\Ventas\\Producto.cs",
+              "RelativeToolTip": "Datos\\Ventas\\Producto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T19:14:42.287Z",
+              "WhenOpened": "2025-06-16T22:20:10.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VentasNegocio.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\Negocio\\VentasNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\VentasNegocio.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\Negocio\\VentasNegocio.cs",
-              "RelativeToolTip": "Negocio\\VentasNegocio.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FormVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
+              "RelativeDocumentMoniker": "TemplateTPCorto\\FormVentas.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\TemplateTPCorto\\FormVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TemplateTPCorto\\FormVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T19:13:56.591Z",
+              "WhenOpened": "2025-06-16T21:50:01.569Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Negocio\\ProductoNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\ProductoNegocio.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Negocio\\ProductoNegocio.cs",
+              "RelativeToolTip": "Negocio\\ProductoNegocio.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:12:41.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormVentas.cs",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
               "RelativeDocumentMoniker": "TemplateTPCorto\\FormVentas.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
               "RelativeToolTip": "TemplateTPCorto\\FormVentas.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwEgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T19:11:35.006Z",
+              "WhenOpened": "2025-06-16T20:20:24.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormVentas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs",
-              "RelativeDocumentMoniker": "TemplateTPCorto\\FormVentas.cs",
-              "ToolTip": "D:\\Descargas\\Ultimo TP\\TPCAI\\TemplateTPCorto\\FormVentas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TemplateTPCorto\\FormVentas.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "VentaPersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Persistencia\\VentaPersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\VentaPersistencia.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Persistencia\\VentaPersistencia.cs",
+              "RelativeToolTip": "Persistencia\\VentaPersistencia.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T19:11:30.863Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-16T21:11:00.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VentasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Negocio\\VentasNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\VentasNegocio.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Negocio\\VentasNegocio.cs",
+              "RelativeToolTip": "Negocio\\VentasNegocio.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:13:56.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientePersistencia.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Persistencia\\ClientePersistencia.cs",
+              "RelativeDocumentMoniker": "Persistencia\\ClientePersistencia.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Trabajo Pr\u00E1ctico\\TPCAI\\Persistencia\\ClientePersistencia.cs",
+              "RelativeToolTip": "Persistencia\\ClientePersistencia.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:14:42.287Z"
             }
           ]
         }

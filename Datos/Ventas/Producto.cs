@@ -26,7 +26,25 @@ namespace Datos.Ventas
 
         public override string ToString()
         {
-            return Nombre;
+            return $"{Nombre} - Precio: ${Precio} - Cantidad: {Stock}";
         }
+
+        // Constructor copia usando propiedades públicas
+        public Producto(Producto original)
+        {
+            Id = original.Id;
+            IdCategoria = original.IdCategoria;
+            Nombre = original.Nombre;
+            FechaAlta = original.FechaAlta;
+            FechaBaja = original.FechaBaja;
+            Precio = original.Precio;
+            Stock = original.Stock;
+        }
+
+        public Producto()
+        {
+
+        }
+            
     }
 }
