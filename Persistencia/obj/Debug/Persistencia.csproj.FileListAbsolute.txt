@@ -78,3 +78,5 @@ D:\Descargas\Ultimo TP\TPCAI\Persistencia\obj\Debug\Persistencia.csproj.CoreComp
 D:\Descargas\Ultimo TP\TPCAI\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
 D:\Descargas\Ultimo TP\TPCAI\Persistencia\obj\Debug\Persistencia.dll
 D:\Descargas\Ultimo TP\TPCAI\Persistencia\obj\Debug\Persistencia.pdb
+D:\Descargas\Ultimo TP\TPCAI\Persistencia\bin\Debug\Newtonsoft.Json.dll
+D:\Descargas\Ultimo TP\TPCAI\Persistencia\bin\Debug\Newtonsoft.Json.xml

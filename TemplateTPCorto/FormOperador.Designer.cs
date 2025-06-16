@@ -38,7 +38,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(51, 39);
+            this.label1.Location = new System.Drawing.Point(37, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 25);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             // BtnCambioClave
             // 
-            this.BtnCambioClave.Location = new System.Drawing.Point(65, 165);
+            this.BtnCambioClave.Location = new System.Drawing.Point(65, 219);
             this.BtnCambioClave.Name = "BtnCambioClave";
             this.BtnCambioClave.Size = new System.Drawing.Size(183, 47);
             this.BtnCambioClave.TabIndex = 2;
@@ -66,11 +66,11 @@
             // 
             // BtnSiguiente
             // 
-            this.BtnSiguiente.Location = new System.Drawing.Point(65, 255);
+            this.BtnSiguiente.Location = new System.Drawing.Point(65, 148);
             this.BtnSiguiente.Name = "BtnSiguiente";
             this.BtnSiguiente.Size = new System.Drawing.Size(183, 47);
             this.BtnSiguiente.TabIndex = 3;
-            this.BtnSiguiente.Text = "Siguiente";
+            this.BtnSiguiente.Text = "Cargar Ventas";
             this.BtnSiguiente.UseVisualStyleBackColor = true;
             this.BtnSiguiente.Click += new System.EventHandler(this.BtnSiguiente_Click);
             // 
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 376);
+            this.ClientSize = new System.Drawing.Size(303, 286);
             this.Controls.Add(this.BtnSiguiente);
             this.Controls.Add(this.BtnCambioClave);
             this.Controls.Add(this.label2);
