@@ -116,6 +116,8 @@ namespace TemplateTPCorto
             string cantidad = txtCantidad.Text;
             ProductoNegocio productoNegocio = new ProductoNegocio();
             int numero;
+            VentasNegocio ventasNegocio = new VentasNegocio();
+            double totalCarrito;
             if (!int.TryParse(cantidad, out numero)) // Validar que sea un número
             {
                 // No es un número
@@ -132,11 +134,21 @@ namespace TemplateTPCorto
                     MessageBox.Show("Cantidad no disponible.");
                     return;
                 }                    
-                listBox1.Items.Add(productoNegocio.agregarProductoCarrito(numero, seleccionado));
+                listBox1.Items.Add(productoAgregado);
                 seleccionado.Stock = seleccionado.Stock - numero;
                
                 lstProducto.DataSource = null;
                 lstProducto.DataSource = listaProductos;
+
+                List<Producto> productosCarrito = new List<Producto>();
+                productosCarrito = listBox1.Items.Cast<Producto>().ToList();
+
+                totalCarrito = ventasNegocio.sumarSubtotal(productosCarrito);
+                lablSubTotal.Text = "$" + totalCarrito.ToString();
+
+                lblTotal.Text = "$" + ventasNegocio.sumarTotal(totalCarrito).ToString();                             
+
+
 
             }
             else
@@ -162,6 +174,9 @@ namespace TemplateTPCorto
             {
                 Producto seleccionado = (Producto)listBox1.SelectedItem;
                 listBox1.Items.Remove(seleccionado);
+                VentasNegocio ventasNegocio = new VentasNegocio();
+                double totalCarrito;
+
                 foreach (Producto a in listaProductos)
                 {
                     if (a.Id == seleccionado.Id)
@@ -173,6 +188,15 @@ namespace TemplateTPCorto
                 // Refrescar la lista
                 lstProducto.DataSource = null;
                 lstProducto.DataSource = listaProductos;
+
+                //Resta productos de la lista
+                List<Producto> productosCarrito = new List<Producto>();
+                productosCarrito = listBox1.Items.Cast<Producto>().ToList();
+
+                totalCarrito = ventasNegocio.sumarSubtotal(productosCarrito);
+                lablSubTotal.Text = "$" + totalCarrito.ToString();
+
+                lblTotal.Text = "$" + ventasNegocio.sumarTotal(totalCarrito).ToString();
             }
             else
             {
@@ -182,6 +206,50 @@ namespace TemplateTPCorto
 
         private void lstProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void lablSubTotal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCargar_Click(object sender, EventArgs e)
+        {
+            
+            VentasNegocio ventasNegocio = new VentasNegocio();
+            Guid idCliente = Guid.Empty;
+           
+            bool resultadoCarga = false;
+
+            if (!(cmbClientes.SelectedItem is Cliente clienteSeleccionado))
+            {
+                MessageBox.Show("No se seleccionó un cliente válido.");
+                return;             
+                
+            }           
+            
+            idCliente = clienteSeleccionado.Id;
+            if (listBox1.Items.Count == 0)
+            {
+                MessageBox.Show("No se cargó ningun producto en el carrito.");
+                return;
+            }
+
+            List<Producto> productosCarrito = new List<Producto>();
+            productosCarrito = listBox1.Items.Cast<Producto>().ToList();
+
+            resultadoCarga = ventasNegocio.ventaValidada(idCliente, productosCarrito);
+            
+
+            if (resultadoCarga)
+            {
+                MessageBox.Show("Se cargaron todos los productos correctamente.");
+            }
+            else
+            {
+                MessageBox.Show("Hubo errores en la carga de productos.");
+            }
 
         }
     }

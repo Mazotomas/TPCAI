@@ -51,7 +51,7 @@
             // 
             this.cmbClientes.FormattingEnabled = true;
             this.cmbClientes.Location = new System.Drawing.Point(141, 40);
-            this.cmbClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbClientes.Margin = new System.Windows.Forms.Padding(2);
             this.cmbClientes.Name = "cmbClientes";
             this.cmbClientes.Size = new System.Drawing.Size(160, 21);
             this.cmbClientes.TabIndex = 0;
@@ -81,7 +81,7 @@
             // 
             this.cboCategoriaProductos.FormattingEnabled = true;
             this.cboCategoriaProductos.Location = new System.Drawing.Point(141, 82);
-            this.cboCategoriaProductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboCategoriaProductos.Margin = new System.Windows.Forms.Padding(2);
             this.cboCategoriaProductos.Name = "cboCategoriaProductos";
             this.cboCategoriaProductos.Size = new System.Drawing.Size(92, 21);
             this.cboCategoriaProductos.TabIndex = 3;
@@ -91,7 +91,7 @@
             this.lstProducto.FormattingEnabled = true;
             this.lstProducto.HorizontalScrollbar = true;
             this.lstProducto.Location = new System.Drawing.Point(29, 131);
-            this.lstProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstProducto.Margin = new System.Windows.Forms.Padding(2);
             this.lstProducto.Name = "lstProducto";
             this.lstProducto.Size = new System.Drawing.Size(339, 212);
             this.lstProducto.TabIndex = 4;
@@ -102,7 +102,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.Location = new System.Drawing.Point(420, 40);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(290, 251);
             this.listBox1.TabIndex = 5;
@@ -159,7 +159,7 @@
             // txtCantidad
             // 
             this.txtCantidad.Location = new System.Drawing.Point(92, 360);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(76, 20);
             this.txtCantidad.TabIndex = 11;
@@ -168,7 +168,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(160, 391);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(97, 19);
             this.btnAgregar.TabIndex = 12;
@@ -185,11 +185,12 @@
             this.lablSubTotal.Size = new System.Drawing.Size(13, 13);
             this.lablSubTotal.TabIndex = 13;
             this.lablSubTotal.Text = "0";
+            this.lablSubTotal.Click += new System.EventHandler(this.lablSubTotal_Click);
             // 
             // btnQuitar
             // 
             this.btnQuitar.Location = new System.Drawing.Point(727, 131);
-            this.btnQuitar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnQuitar.Margin = new System.Windows.Forms.Padding(2);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(56, 19);
             this.btnQuitar.TabIndex = 15;
@@ -200,17 +201,18 @@
             // btnCargar
             // 
             this.btnCargar.Location = new System.Drawing.Point(551, 391);
-            this.btnCargar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCargar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(76, 19);
             this.btnCargar.TabIndex = 16;
             this.btnCargar.Text = "Cargar Venta";
             this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
             // 
             // btnListarProductos
             // 
             this.btnListarProductos.Location = new System.Drawing.Point(262, 82);
-            this.btnListarProductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnListarProductos.Margin = new System.Windows.Forms.Padding(2);
             this.btnListarProductos.Name = "btnListarProductos";
             this.btnListarProductos.Size = new System.Drawing.Size(85, 19);
             this.btnListarProductos.TabIndex = 17;
@@ -240,7 +242,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbClientes);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormVentas";
             this.Text = "FormVentas";
             this.Load += new System.EventHandler(this.FormVentas_Load);
