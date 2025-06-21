@@ -44,6 +44,46 @@ namespace Negocio
             return categoriaProductos;
         }
 
-        
+        public double sumarSubtotal(List<Producto> listaProductos)
+        {
+            double subtotal = 0;
+            foreach (Producto p in listaProductos)
+            {
+                subtotal = subtotal + p.Precio;
+            }
+
+            return subtotal;
+        }
+        public double sumarTotal(double subtotal)
+        {
+            double total = subtotal;
+
+            if (subtotal >= 1000000)
+            {
+                total = subtotal * 0.85;
+            }
+
+            return total;
+            
+        }
+
+        public bool ventaValidada(Guid idCliente, List<Producto> productos)
+        {
+            VentaPersistencia ventaPersistencia = new VentaPersistencia();
+            bool valido = false;
+            string respuesta = null;
+            Guid idUsuario = new Guid("784c07f2-2b26-4973-9235-4064e94832b5");
+
+            foreach (Producto p in productos)
+            {
+                DatosVenta datosVenta = new DatosVenta(idCliente, p.Id, idUsuario, p.Stock);
+                valido = ventaPersistencia.agregarVenta(datosVenta);                
+
+            }
+
+            return valido;
+
+
+        }
     }
 }
