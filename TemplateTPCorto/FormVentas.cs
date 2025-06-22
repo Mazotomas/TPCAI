@@ -17,9 +17,12 @@ namespace TemplateTPCorto
     public partial class FormVentas : Form
     {
         List<Producto> listaProductos = new List<Producto>();
-        public FormVentas()
+        private Credencial usuario;
+
+        public FormVentas(Credencial usuario)
         {
             InitializeComponent();
+            this.usuario = usuario;
         }
 
         private void FormVentas_Load(object sender, EventArgs e)
@@ -47,11 +50,6 @@ namespace TemplateTPCorto
             cboCategoriaProductos.DataSource = categoriaProductos;
             cboCategoriaProductos.DisplayMember = "Detalle"; // Cambiá por la propiedad visible (ej. "Descripcion")
             cboCategoriaProductos.ValueMember = "Id";       // Cambiá por la propiedad del ID
-
-            //foreach (CategoriaProductos categoriaProducto in categoriaProductos)
-            //{
-            //    cboCategoriaProductos.Items.Add(categoriaProducto);
-            //}
         }
 
         private void CargarClientes()
@@ -71,21 +69,69 @@ namespace TemplateTPCorto
             VentasNegocio ventasNegocio = new VentasNegocio();
             ProductoNegocio productoNegocio = new ProductoNegocio();
             List<Producto> productosConStock = new List<Producto>();
+            int modificacion = 0;
             if (cboCategoriaProductos.SelectedValue != null)
             {
-                if (listBox1.Items.Count > 0)
-                {
-                    MessageBox.Show("Por favor, vacíe el carrito o finalice la carga antes de cambiar de categoría.");
-                    return;
-                }
+                //if (listBox1.Items.Count > 0)
+                //{
+                //    MessageBox.Show("Por favor, vacíe el carrito o finalice la carga antes de cambiar de categoría.");
+                //    return;
+                //}
                 
                 string idCategoria = cboCategoriaProductos.SelectedValue.ToString();
-                               
+                
+                //traemos los productos para la categoria
                 productosConStock = productoNegocio.obtenerProductosPorCategoria(idCategoria);
-                listaProductos = productosConStock;
-                lstProducto.DataSource = listaProductos;
-                // usar idCategoria
 
+                //la guardamos para trabajarla
+                listaProductos = productosConStock;
+
+                // recorremos primero el carrito y despues el listado actual
+                foreach (Producto productoEnCarrito in listBox1.Items.Cast<Producto>().ToList())
+                {
+                    foreach (Producto productoEnLista in listaProductos)
+                    {
+                        if (productoEnLista.Id == productoEnCarrito.Id)
+                        {
+                            if (productoEnLista.Stock == 0 || productoEnLista.Stock < productoEnCarrito.Stock)
+                            {
+                                //productoEnCarrito.Stock = 0;
+                                //productoEnCarrito.Precio = 0;
+
+                                int index = listBox1.Items.IndexOf(productoEnCarrito);
+                                if (index >= 0)
+                                {
+                                    listBox1.Items.RemoveAt(index);              
+                                    //listBox1.Items.Insert(index, productoEnCarrito);
+                                }
+
+                                modificacion++;
+                            }
+                            else
+                            { 
+                                productoEnLista.Stock = productoEnLista.Stock - productoEnCarrito.Stock; 
+                            }
+                            break; // hubo coincidencia, salimos del foreach
+                        }
+                    }
+                }
+                // actualizamos la lista
+                lstProducto.DataSource = null;
+                lstProducto.DataSource = listaProductos;
+
+                if (modificacion > 0)
+                {
+                    //Recalcula totales
+                    double totalCarrito;
+                    List<Producto> productosCarrito = new List<Producto>();
+                    productosCarrito = listBox1.Items.Cast<Producto>().ToList();
+
+                    totalCarrito = ventasNegocio.sumarSubtotal(productosCarrito);
+                    lablSubTotal.Text = "$" + totalCarrito.ToString();
+
+                    lblTotal.Text = "$" + ventasNegocio.sumarTotal(totalCarrito).ToString();
+                    MessageBox.Show($"Se quitaron {modificacion} producto/s del carrito por falta de stock seleccionado.");
+                }
 
             }
             else
@@ -146,9 +192,9 @@ namespace TemplateTPCorto
                 totalCarrito = ventasNegocio.sumarSubtotal(productosCarrito);
                 lablSubTotal.Text = "$" + totalCarrito.ToString();
 
-                lblTotal.Text = "$" + ventasNegocio.sumarTotal(totalCarrito).ToString();                             
+                lblTotal.Text = "$" + ventasNegocio.sumarTotal(totalCarrito).ToString();
 
-
+                txtCantidad.Text = "";
 
             }
             else
@@ -219,8 +265,8 @@ namespace TemplateTPCorto
             
             VentasNegocio ventasNegocio = new VentasNegocio();
             Guid idCliente = Guid.Empty;
-           
-            bool resultadoCarga = false;
+            string mensaje = "";
+            string[] resultadoCarga;
 
             if (!(cmbClientes.SelectedItem is Cliente clienteSeleccionado))
             {
@@ -239,18 +285,31 @@ namespace TemplateTPCorto
             List<Producto> productosCarrito = new List<Producto>();
             productosCarrito = listBox1.Items.Cast<Producto>().ToList();
 
+            resultadoCarga = new string[productosCarrito.Count];
             resultadoCarga = ventasNegocio.ventaValidada(idCliente, productosCarrito);
-            
 
-            if (resultadoCarga)
+
+            for (int i = 0; i < resultadoCarga.Length; i++)
             {
-                MessageBox.Show("Se cargaron todos los productos correctamente.");
-            }
-            else
-            {
-                MessageBox.Show("Hubo errores en la carga de productos.");
+                mensaje += $"Línea {i + 1}: {resultadoCarga[i]}" + Environment.NewLine;
             }
 
+            MessageBox.Show(mensaje, "Resultado del envío");
+
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormOperador formOperador = new FormOperador(usuario);
+            formOperador.Show();
+
+            this.Hide();
         }
     }
 }

@@ -67,22 +67,21 @@ namespace Negocio
             
         }
 
-        public bool ventaValidada(Guid idCliente, List<Producto> productos)
+        public string[] ventaValidada(Guid idCliente, List<Producto> productos)
         {
             VentaPersistencia ventaPersistencia = new VentaPersistencia();
-            bool valido = false;
-            string respuesta = null;
+            string[] respuestas = new string[productos.Count];
             Guid idUsuario = new Guid("784c07f2-2b26-4973-9235-4064e94832b5");
+            int i = 0; 
 
             foreach (Producto p in productos)
             {
                 DatosVenta datosVenta = new DatosVenta(idCliente, p.Id, idUsuario, p.Stock);
-                valido = ventaPersistencia.agregarVenta(datosVenta);                
-
+                respuestas[i] = ventaPersistencia.agregarVenta(datosVenta);
+                i++;
             }
 
-            return valido;
-
+            return respuestas;
 
         }
     }

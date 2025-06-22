@@ -44,7 +44,7 @@ namespace TemplateTPCorto
 
         private void BtnSiguiente_Click(object sender, EventArgs e)
         {
-            FormVentas formVenta = new FormVentas();
+            FormVentas formVenta = new FormVentas(usuario);
             formVenta.Show();
 
             // ocultar o cerrar el login
